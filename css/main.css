@@ -86,9 +86,11 @@ nav {
     border-radius: .5rem;
 }
 .navlink li {
+    border-radius: .5rem;
     padding: 0 1rem 0 1rem;
 }
 .navlink li:hover {
+    border-radius: .5rem;
     background-color: #c1121f;
     color: #669bbc;
     width: 100%;
