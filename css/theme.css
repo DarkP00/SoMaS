@@ -32,7 +32,7 @@
         border-radius: 1rem;
         transition: background-color .15s ease, color .15s ease;
     }
-    .navlink a:hover, .navlink a:focus{
+    .navlink a:hover{
         background-color: #c1121f;
         color: #fdf0d5;
     }
