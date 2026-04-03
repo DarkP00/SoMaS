@@ -1,0 +1,176 @@
+@media (min-width: 600px) {
+    header {
+        height: 5rem;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+     }
+    nav {
+        position: static;
+    }
+    .menubtn{
+        display: none;
+    }
+    .navlink{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        position: static;
+        width: auto;
+        gap: .3rem;
+        background-color: #fdf0d5;
+    }
+    .navlink a{
+        display: block;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #780000;
+        width: 100%;
+        padding: .05rem 1rem;
+        border-radius: 1rem;
+        transition: background-color .15s ease, color .15s ease;
+    }
+    .navlink a:hover, .navlink a:focus{
+        background-color: #c1121f;
+        color: #fdf0d5;
+    }
+    img#handinhand {
+        display: block;
+        padding: 0 5vw 0 0;
+        width: 30vw;
+    }
+    .hero {
+        height: 37rem;
+        background-image: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .ongingproject {
+        flex-direction: row;
+        background-image: linear-gradient(to top, #002e4700, #002e47 10%, #002e47 90%, #002e4700);
+        padding: 12rem 0;
+        flex-wrap: wrap;
+        gap: .5rem;
+        align-items: stretch;
+    }
+    .ongingproject h4 {
+        font-size: 2.5rem;
+        white-space: nowrap;
+        width: 100%;
+        text-align: center;
+    }
+    .project1 {
+        width: 35%;
+        padding: .05rem 1rem;
+        border-style: dashed;
+        border-radius: 3rem;
+        border-color: #fdf0d5;
+        margin: 1rem;
+    }
+    .ongingproject h2 {
+        font-size: 1.5rem;
+        margin: 0;
+        margin: 1rem 0;
+        line-height: auto;
+    }
+    .ongingproject p {
+        font-size: 1rem;
+        margin: 0;
+    }
+    .ongingproject img{
+        width: 60%;
+    }
+    .project2 {
+        width: 35%;
+        padding: .05rem 1rem;
+        border-style: dashed;
+        border-radius: 3rem;
+        border-color: #fdf0d5;
+        margin: 1rem;
+    }
+    .aply {
+        margin: 5vw 5vw;
+        gap: 1rem;
+        row-gap: 1rem;
+    }
+    .aply h4 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1rem;
+        width: 90vw;
+    }
+    .aply button {
+        width: 35vw;
+        color: #fdf0d5;
+        border-radius: 3rem;
+        padding: .5rem 1rem;
+        font-size: 1.5rem;
+        height: 100%;
+    }
+    .iconsclh {
+        display: none;
+    }
+    .dfoot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: .05rem 5vw .05rem 5vw;
+    }
+    .moreabout {
+        width: 45%;
+    }
+    footer h4 {
+        font-size: 2.5rem;
+        margin: 0;
+        margin: .05rem 0 0 5vw;
+    }
+    footer .ul{
+        gap: 1rem;
+        row-gap: 1rem;
+        margin: 1rem 0 1rem 5vw;
+    }
+    footer .ul a{
+        font-size: 1.2rem;
+        border: 1px solid #fdf0d5;
+        border-radius: 2rem;
+        padding: .05rem 1rem;
+    }
+    .diconsclh {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 45%;
+        gap: 1rem;
+        row-gap: 1rem;
+    }
+    .diconscl{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .diconsclh h4 {
+        font-size: 2.5rem;
+        margin: .05rem 5vw 0 0;
+        height: fit-content;
+    }
+    .diconsclh img {
+        width: 4rem;
+        height: 4rem;
+    }
+    .copywrite {
+        background-color: #001f2f;
+        width: 100%;
+    }
+    .copywrite p {
+        margin: 0;
+        padding: .05rem;
+        font-size: 1rem;
+        text-align: center;
+    }
